@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    margin:0;
 }
 
 
@@ -97,7 +98,7 @@ img {
 p{
     line-height: 2;
   }
-  .line{
+.line{
     border-left: 5px dotted rgb(116, 218, 236);
     height: 600px;
     width: 4%;
@@ -107,9 +108,6 @@ p{
 
 
   @media screen and (max-width: 1150px) {
-    img{
-        height: 600px;
-    }
     
     .welcome{
         font-size: 30px;
@@ -122,9 +120,6 @@ p{
     }
   }
   @media screen and (max-width: 950px) {
-    img{
-        height: 500px;
-    }
     .welcome{
         font-size: 25px;
         padding-left: 30px;
@@ -136,6 +131,49 @@ p{
     }
   }
 
+  @media screen and (max-width: 600px) {
+    .man {
+        z-index: 1;
+        position: absolute;
+        margin: 90px auto 0 auto;
+        opacity: .8;
+        display: block;
+      }
+
+      
+      .text{
+        display: grid;
+        grid-template-rows: 1fr, 1fr;
+        margin: 100px auto 0 auto;
+        row-gap: 0px;
+      }
+      .line{
+        border-left: none;
+        height: 0px;
+      }
+      .line2{
+        height: 1px;
+        border-bottom: 6px dotted  rgb(116, 218, 236);
+      }
+      #background2{
+        opacity: 0;
+      }
+
+    #welcome{
+        font-size: 25px;
+        margin: 800px auto 0 auto;
+    }
+
+    .right{
+        font-size: 20px;
+        margin: 0px auto 30px auto;
+        font-weight: 550;
+        background: -webkit-linear-gradient(35deg, #5d0202, #eb1111 70%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+  }
 
 
   
