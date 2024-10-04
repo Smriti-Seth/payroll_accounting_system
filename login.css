@@ -1,0 +1,15 @@
+.main{
+    background-color: aqua;
+    height:550px;
+    width:400px;
+    display: flex;
+    position: absolute;
+    top:20%;
+    
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}

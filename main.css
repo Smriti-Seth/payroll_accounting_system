@@ -61,8 +61,7 @@ body{
 }
 #welcome{
     display: flex;
-    padding-top: 160px;
-    padding-left: 50px;
+    margin: 160px auto 0 0;
     width: 60%;
 }
 
@@ -93,8 +92,18 @@ img {
 .text{
     display: flex;
     gap:20px;
-    padding-bottom: 215px;
 }
+
+p{
+    line-height: 2;
+  }
+  .line{
+    border-left: 5px dotted rgb(116, 218, 236);
+    height: 600px;
+    width: 4%;
+    margin: 100px auto;
+    display: flex;
+  }
 
 
   @media screen and (max-width: 1150px) {
@@ -127,38 +136,6 @@ img {
     }
   }
 
-  @media screen and (max-width: 750px) {
-    img{
-        height: 450px;
-        top:150px;
-    }
-    .welcome{
-        font-size: 20px;
-        padding-left: 30px;
-        padding-top: 50px;
-    }
-    .right{
-        font-size: 18px;
-        padding-right: 10px;
-        padding-top:180px ;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    img{
-        height: 400px;
-        top:180px;
-    }
-    .welcome{
-        font-size: 20px;
-        padding-left: 10px;
-        padding-top: 0px;
-    }
-    .right{
-        font-size: 15px;
-        padding-right: 0px;
-        padding-top:150px ;
-    }
-  }
 
 
   
