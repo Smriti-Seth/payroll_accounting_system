@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+}
+
+
+.first{
+    display: flex;
+    height: 100px;
+    background: linear-gradient(rgba(32,151,198,1), rgba(202,236,250,1));
+    opacity: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    color: black;
+}
+.b{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding-right: 4%;
+}
+
+.details{
+    display: flex;
+    text-align: center;
+    gap:1rem;
+}
+
+.button{
+    width:fit-content;
+    background: rgb(43, 132, 214);
+    padding: 2.5%;
+    display: inline;
+    border-radius: 10%;
+    color: aliceblue;
+}
+
+.welcome{
+    display: flex;
+    font-size: 40px;
+    font-family: Inknut Antiqua;
+    font-weight: Bold;
+    background: -webkit-linear-gradient(25deg, #012850, #0487cd 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#welcome{
+    display: flex;
+    padding-top: 160px;
+    padding-left: 50px;
+    width: 60%;
+}
+
+img {
+    z-index: -1;
+    position: absolute;
+    top:100px;
+    left:0px;
+    opacity: .3;
+    display: flex;
+  }
+
+  @media screen and (max-width: 1150px) {
+    img{
+        height: 600px;
+    }
+    
+    .welcome{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    img{
+        height: 500px;
+    }
+    .welcome{
+        font-size: 25px;
+        padding-left: 30px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    img{
+        height: 450px;
+    }
+    .welcome{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    img{
+        height: 400px;
+    }
+    .welcome{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+  }
+
+.right{
+    width: 40%;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-right: 10%;
+    font-weight: 550;
+    background: -webkit-linear-gradient(35deg, #5d0202, #eb1111 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    display: flex;
+    gap:20px;
+}
+
+
+
