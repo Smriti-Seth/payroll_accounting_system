@@ -107,29 +107,6 @@ p{
   }
 
 
-  @media screen and (max-width: 1150px) {
-    
-    .welcome{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    .right{
-        font-size: 25px;
-        padding-right: 0px;
-        padding-top:150px ;
-    }
-  }
-  @media screen and (max-width: 950px) {
-    .welcome{
-        font-size: 25px;
-        padding-left: 30px;
-    }
-    .right{
-        font-size: 20px;
-        padding-right: 0px;
-        padding-top:150px ;
-    }
-  }
 
   @media only screen and (max-width: 600px) {
     .man {
@@ -173,6 +150,31 @@ p{
         -webkit-text-fill-color: transparent;
     }
     
+  }
+
+
+  @media screen and (max-width: 1150px) {
+    
+    .welcome{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .right{
+        font-size: 25px;
+        padding-right: 0px;
+        padding-top:150px ;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .welcome{
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    .right{
+        font-size: 20px;
+        padding-right: 0px;
+        padding-top:150px ;
+    }
   }
 
 
