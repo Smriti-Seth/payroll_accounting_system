@@ -5,7 +5,8 @@ body{
 
 
 .first{
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     height: 100px;
     background: linear-gradient(rgba(32,151,198,1), rgba(202,236,250,1));
     opacity: 1;
@@ -24,12 +25,13 @@ body{
 .a{
     display: flex;
     align-items: center;
-    padding: 2%;
+    padding-left: 5%;
     text-align: center;
     color: black;
 }
 .b{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr .5fr .5fr;
     justify-content: center;
     align-items: center;
     gap:1rem;
@@ -37,7 +39,8 @@ body{
 }
 
 .details{
-    display: flex;
+    display: grid;
+    grid-template-columns: .5fr .5fr;
     text-align: center;
     gap:1rem;
 }
@@ -45,8 +48,8 @@ body{
 .button{
     width:fit-content;
     background: rgb(43, 132, 214);
-    padding: 2.5%;
-    display: inline;
+    padding: 5%;
+    display: flex;
     border-radius: 10%;
     color: aliceblue;
 }
@@ -62,7 +65,8 @@ body{
 }
 #welcome{
     display: flex;
-    margin: 160px auto 0 0;
+    padding-top:180px;
+    padding-left: 50px;
     width: 60%;
 }
 
@@ -98,6 +102,7 @@ img {
 p{
     line-height: 2;
   }
+
 .line{
     border-left: 5px dotted rgb(116, 218, 236);
     height: 600px;
@@ -110,20 +115,20 @@ p{
 
   @media only screen and (max-width: 600px) {
     .man {
-      height: 100%;
+        width: 100%;
+        height: auto;
         z-index: 1;
+        padding-left: 5%;
         position: absolute;
         margin: 90px auto 0 auto;
         opacity: .8;
         display: block;
       }
 
-      
       .text{
         display: grid;
-        grid-template-rows: 0.5fr, 0.5fr;
-        margin: 100px auto 0 auto;
-        row-gap: 0px;
+        margin: 0px auto 0px auto;
+        grid-template-rows: repeat(1fr);
       }
       .line{
         border-left: none;
@@ -139,8 +144,13 @@ p{
       }
 
     #welcome{
-        font-size: 25px;
-        margin: 100% auto 0 auto;
+      width: 100%;
+      height: auto;
+      display: flex;
+      font-size: 25px;
+      margin-top: 24rem;
+      padding-left: 0px;
+
     }
 
     .right{
