@@ -115,10 +115,9 @@ p{
 
   @media only screen and (max-width: 600px) {
     .man {
-        width: 95%;
+        width: 100%;
         height: auto;
         z-index: 1;
-        padding-left: 5%;
         position: absolute;
         margin: 90px auto 0 auto;
         opacity: .8;
