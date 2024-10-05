@@ -115,7 +115,7 @@ p{
 
   @media only screen and (max-width: 600px) {
     .man {
-        width: 100%;
+        width: 95%;
         height: auto;
         z-index: 1;
         padding-left: 5%;
