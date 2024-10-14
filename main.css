@@ -3,7 +3,6 @@ body{
     margin:0;
 }
 
-
 .first{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -62,6 +61,8 @@ body{
     background: -webkit-linear-gradient(25deg, #012850, #0487cd 80%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: fit-content;
+    margin: 20% auto 20% auto;
 }
 #welcome{
     display: flex;
@@ -113,12 +114,11 @@ p{
 
 
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     .man {
-        width: 95%;
+        width: 100%;
         height: auto;
         z-index: 1;
-        padding-left: 5%;
         position: absolute;
         margin: 90px auto 0 auto;
         opacity: .8;
@@ -133,10 +133,11 @@ p{
       .line{
         border-left: none;
         height: 0px;
+        margin:0px;
       }
       .line2{
         height: 0px;
-        border-bottom: 6px dotted  rgb(116, 218, 236);
+        border-bottom: 6px dotted  #74daec;
       }
       #background2{
         opacity: 0;
@@ -147,16 +148,20 @@ p{
       width: 100%;
       height: auto;
       display: flex;
-      font-size: 25px;
-      margin-top: 24rem;
+      margin-top: 22rem;
       padding-left: 0px;
+    }
 
+    .welcome{
+      font-size: 25px;
     }
 
     .right{
         font-size: 20px;
         margin: 0px auto 30px auto;
         font-weight: 550;
+        padding-top: 0%;
+        padding-right: 0%;
         background: -webkit-linear-gradient(35deg, #5d0202, #eb1111 70%);
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -165,7 +170,7 @@ p{
   }
 
 
-  @media screen and (max-width: 1150px) {
+  @media (min-width: 950px) and (max-width: 1150px) {
     
     .welcome{
         font-size: 30px;
@@ -177,17 +182,7 @@ p{
         padding-top:150px ;
     }
   }
-  @media screen and (max-width: 950px) {
-    .welcome{
-        font-size: 25px;
-        padding-left: 30px;
-    }
-    .right{
-        font-size: 20px;
-        padding-right: 0px;
-        padding-top:150px ;
-    }
-  }
+ 
 
 
   
