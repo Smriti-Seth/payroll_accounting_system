@@ -3,6 +3,13 @@ body{
     margin:0;
 }
 
+h3{
+  transition: font-size 1s;
+}
+
+h3:hover{
+  font-size: 30px;
+}
 .first{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -43,15 +50,31 @@ body{
     grid-template-columns: .5fr .5fr;
     text-align: center;
     gap:1rem;
+    
+.p{
+  transition: font-size 1s;
+}
+}
+
+.p:hover{
+  font-size: 18px;
 }
 
 .button{
     width:fit-content;
+    align-items: center;
+    justify-content: center;
     background: rgb(43, 132, 214);
     padding: 5%;
     display: flex;
     border-radius: 10%;
     color: aliceblue;
+    transition: width 1s, height 1s;
+}
+
+.button:hover {
+  width: 70px;
+  height: 40px;
 }
 
 .welcome{
