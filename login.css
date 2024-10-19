@@ -72,7 +72,7 @@ p{
     align-items: center;
     justify-content: center;
     background: rgb(214, 117, 43);
-    padding: .5vw;
+    padding: .9vw;
     display: flex;
     border-radius: 24px;
     color: aliceblue;
@@ -80,7 +80,7 @@ p{
 }
 
 .l:hover{
-    padding: .6vw;
+    padding: 1.5vw;
 }
 
 #hr{
@@ -93,7 +93,54 @@ a{
 }
 
 @media (max-width:600px) {
+.main{
+    height: 50vh;
+    width: 30vh;
+    border: solid #F4F6FF .1vh;
+    position: relative;
+    top: 15vh;
+}
+body{
+    background-color: #10375C;
+}
 
-   
-    
+.a{
+    font-size: 4vh;
+    padding: 2vh;
+}
+
+hr{
+    width: 5vh;
+    border: dotted #F4F6FF .5vh;
+}
+.u{
+    width: 15vh;
+}
+.enter{
+    width: 15vh;
+    height: 2vh;
+}
+p{
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.f{
+    width: 15vh;
+    padding: 1vh;
+
+}
+#p{
+    font-size: 1vh;
+}
+.l{
+    font-size: 1vh;
+    padding: .8vh;
+}
+.l:hover{
+    padding: 1vh;
+}
+a{
+    padding-top: 1vh;
+}
 }
