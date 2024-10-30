@@ -112,6 +112,7 @@ body{
 hr{
     width: 5vh;
     border: dotted #F4F6FF .5vh;
+    border-bottom: none;
 }
 .u{
     width: 15vh;
