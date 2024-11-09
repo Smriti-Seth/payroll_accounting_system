@@ -71,7 +71,10 @@ h3:hover{
     color: aliceblue;
     transition: width 1s, height 1s;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 .button:hover {
   width: 70px;
   height: 40px;
