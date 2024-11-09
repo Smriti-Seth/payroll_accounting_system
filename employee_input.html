@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Input - Payroll Accounting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employee Payroll Input</h1>
+    </header>
+
+    <!-- Employee Input Form -->
+    <section class="calculator-form">
+        <h2>Enter Payroll Data</h2>
+        <form action="" method="get">
+            <label for="salary">Enter Basic Salary:</label>
+            <input type="number" id="salary" name="salary" placeholder="Enter basic salary" required><br><br>
+
+            <label for="bonus">Enter Bonus:</label>
+            <input type="number" id="bonus" name="bonus" placeholder="Enter bonus" required><br><br>
+
+            <label for="tax">Enter Tax Deduction:</label>
+            <input type="number" id="tax" name="tax" placeholder="Enter tax deduction" required><br><br>
+
+            <label for="deductions">Enter Other Deductions:</label>
+            <input type="number" id="deductions" name="deductions" placeholder="Enter deductions" required><br><br>
+
+            <button type="submit">Calculate</button>
+        </form>
+    </section>
+
+    <!-- Payroll Breakdown Section -->
+    <section class="result">
+        <h2>Payroll Breakdown</h2>
+        <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 70%; background-color: #4caf50;">
+                Salary: 70%
+            </div>
+            <div class="progress-bar" style="width: 10%; background-color: #ff9800;">
+                Bonus: 10%
+            </div>
+            <div class="progress-bar" style="width: 15%; background-color: #f44336;">
+                Tax: 15%
+            </div>
+            <div class="progress-bar" style="width: 5%; background-color: #9c27b0;">
+                Deductions: 5%
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Payroll Accounting System</p>
+    </footer>
+</body>
+</html>
