@@ -141,4 +141,14 @@ footer{
     h2{
         color: black;
     }
+
+    .input{
+        width: 300px;
+    }
+    input{
+        width:300px;
+    }
+    .save{
+        width: 300px;
+    }
 }
