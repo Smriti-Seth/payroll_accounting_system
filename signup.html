@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup_page</title>
+    <link href="./signup.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div class="body">
+            <div class="main">
+                <div class="head">
+                    <div class="signup">SignUp</div>
+                </div>
+    
+                <hr/>
+                <form action="./mysql_signup.php" method="POST" id="signupForm"></form>
+                    <div class="second">
+                        <div  class="u">
+                            <p>User name</p>
+                        </div>
+                        <input class="enter" name="username" placeholder="User name">
+                        <div  class="u">
+                            <p>Password</p>
+                        </div>
+                        <input class="enter" name="password" placeholder="Password">
+                        <div  class="u">
+                            <p>Confrim Password</p>
+                        </div>
+                        <input class="enter" name="cpassword" placeholder="Confrim Password">
+                    </div>
+
+                    <br/> 
+                
+                    <div>
+                        <div>
+                            <button class=" l java" id="java" type="submit" onclick="submitForm()">SignUp</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="third">
+                    <hr id="hr"/>
+                    <p>or</p>
+                    <hr id="hr"/>
+                </div>
+                
+                <div  class="fo">
+                    <p id="p">Already have an account?</p>
+                    <a href="./login.html">Sign in</a>
+                </div>
+            </div>         
+        </div>
+        
+        <script src="./java.js"></script>
+      
+
+    </body>
+
+</html>

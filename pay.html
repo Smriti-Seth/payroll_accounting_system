@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payslip</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.payslip-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payslip-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.company-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.payslip-details p {
+    margin: 5px 0;
+}
+
+.employee-info, .salary-breakdown, .deductions, .net-pay {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table td strong {
+    width: 50%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="payslip-container">
+        <div class="payslip-header">
+            <div class="company-info">
+                <h1>ABC Corporation</h1>
+                <p>700162 Saltlake, Kolkata, India</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="payslip-details">
+                <p><strong>Payslip for:</strong> January 2024</p>
+                <p><strong>Employee ID:</strong> E12345</p>
+            </div>
+        </div>
+
+        <div class="employee-info">
+            <h3>Employee Details</h3>
+            <table>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td><strong>Position:</strong></td>
+                    <td>Software Engineer</td>
+                </tr>
+                <tr>
+                    <td><strong>Department:</strong></td>
+                    <td>IT Department</td>
+                </tr>
+                <tr>
+                    <td><strong>Bank Account:</strong></td>
+                    <td>123-456-789</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="salary-breakdown">
+            <h3>Salary Breakdown</h3>
+            <table>
+                <tr>
+                    <td><strong>Basic Salary:</strong></td>
+                    <td>$3000</td>
+                </tr>
+                <tr>
+                    <td><strong>HRA (House Rent Allowance):</strong></td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td><strong>Bonus:</strong></td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Earnings:</strong></td>
+                    <td>$3700</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="deductions">
+            <h3>Deductions</h3>
+            <table>
+                <tr>
+                    <td><strong>Tax:</strong></td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td><strong>Insurance:</strong></td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td><strong>Other Deductions:</strong></td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Deductions:</strong></td>
+                    <td>$450</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="net-pay">
+            <h3>Net Pay</h3>
+            <table>
+                <tr>
+                    <td><strong>Net Pay:</strong></td>
+                    <td>$3250</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Thank you for your hard work!</p>
+        </div>
+    </div>
+</body>
+</html>
